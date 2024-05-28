@@ -4,10 +4,10 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ValidateSriContributorsApplication {
+public class SRIRequestApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(ValidateSriContributorsApplication.class, args);
+        SpringApplication.run(SRIRequestApplication.class, args);
     }
 
 }
