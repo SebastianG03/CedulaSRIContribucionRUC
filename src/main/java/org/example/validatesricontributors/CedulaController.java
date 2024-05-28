@@ -13,7 +13,7 @@ public class CedulaController {
     }
 
     @GetMapping("/cedula")
-    public boolean getCedula(@RequestParam String cedula) {
+    public String getCedula(@RequestParam String cedula) {
         String ruc = cedula + "001";
         return cedulaService.isContributor(ruc);
     }
